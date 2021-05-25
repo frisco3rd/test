@@ -1,24 +1,24 @@
 <template>
   <div v-if="user">
-    <h4>Name: {{ user.name }}</h4>
-    <p>UserName: {{ user.username }}</p>
-    <p>Email: {{ user.email }}</p>
+    <h4> <span class="key"> Name:</span> {{ user.name }}</h4>
+    <p> <span class="key"> UserName:</span> {{ user.username }}</p>
+    <p> <span class="key"> Email:</span> {{ user.email }}</p>
     <p>Address:</p>
     <ul>
-      <li>Street: {{ user.address.street }}</li>
-      <li>Suite: {{ user.address.suite }}</li>
-      <li>City: {{ user.address.city }}</li>
-      <li>Zip Code: {{ user.address.zipcode }}</li>
+      <li> <span class="key"> Street:</span> {{ user.address.street }}</li>
+      <li> <span class="key"> Suite:</span> {{ user.address.suite }}</li>
+      <li> <span class="key"> City:</span> {{ user.address.city }}</li>
+      <li> <span class="key"> Zip Code:</span> {{ user.address.zipcode }}</li>
       <li>
         GeoLocation: {{ user.address.geo.lat }},{{ user.address.geo.lng }}
       </li>
     </ul>
-    <p>Company: {{ user.company.name }}</p>
-    <p>Catch Phrase: "{{ user.company.catchPhrase }}"</p>
-    <p>Phone: {{ user.phone }}</p>
-    <p>Website: {{ user.website }}</p>
-    <p>bs: {{ user.company.bs }}</p>
-    <button class="button is-rounded is-pulled-right" @click="goToHome">
+    <p> <span class="key"> Company:</span> {{ user.company.name }}</p>
+    <p> <span class="key">Catch Phrase:</span> "{{ user.company.catchPhrase }}"</p>
+    <p> <span class="key">Phone:</span> {{ user.phone }}</p>
+    <p> <span class="key"> Website:</span> {{ user.website }}</p>
+    <p> <span class="key"> bs:</span> {{ user.company.bs }}</p>
+    <button class="button infoButton btn is-pulled-right" @click="goToHome">
       Back to All Users
     </button>
   </div>

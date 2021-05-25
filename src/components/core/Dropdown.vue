@@ -29,7 +29,7 @@
             @click="sort('SORT_USERS_LAST_NAME_DESC')"
             class="dropdown-item"
           >
-            by Last Name DESC
+            by Last Name DESC 
           </a>
           <hr class="dropdown-divider" />
           <a

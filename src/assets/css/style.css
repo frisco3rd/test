@@ -1,0 +1,35 @@
+.infoButton{
+    background-color: #fff;
+    border-color: #1fcc40;
+    color: #1b2b54;
+}
+.blueBack{
+    background-color: #1b2b54;
+}
+.btn {
+    border-radius: 100px;
+    font-size: 15px;
+    letter-spacing: .02em;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+}
+.btn:hover {
+    background-color: #1fcc40;
+    border-color: #fff;
+    color: #fff;
+}
+.cardHolder{
+    background-color: #394a70;
+    border-radius: 30px;
+}
+.card-text{
+    color: #fff;
+}
+.white{
+    color: #fff !important;
+}
+.key{
+    color: #ffa539;
+    font-weight: bold;
+}
