@@ -3,15 +3,12 @@
     <div class="dropdown" :class="{ 'is-active': isActive }">
       <div class="dropdown-trigger">
         <button
-          class="button is-info"
+          class="button sortButton"
           aria-haspopup="true"
           aria-controls="dropdown-menu2"
           @click.prevent="toggleDropdown"
         >
           <span><strong>Sort Users</strong></span>
-          <span class="icon is-small">
-            <i class="fa fa-angle-down" aria-hidden="true"></i>
-          </span>
         </button>
       </div>
       <div class="dropdown-menu" id="dropdown-menu2" role="menu">

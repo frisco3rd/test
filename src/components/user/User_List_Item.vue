@@ -6,7 +6,6 @@
         <div class="card-text pb-2">
         <p> <span class="key">UserName:</span> {{ user.username }}</p>
         <p> <span class="key">Company:</span> {{ user.company.name }}</p>
-        <p> <span class="key">Company Catch Phrase:</span> "{{ user.company.catchPhrase }}"</p>
         <p> <span class="key">Zip Code:</span> {{ user.address.zipcode }}</p>
         </div>
         <router-link

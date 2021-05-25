@@ -6,7 +6,7 @@
         <div class="navbar-item">
           <div class="buttons">
             <Dropdown />
-            <a class="button is-primary" @click="toggleShowModal">
+            <a class="button addButton" @click="toggleShowModal">
               <strong> Add User</strong>
             </a>
           </div>

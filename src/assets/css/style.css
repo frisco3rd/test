@@ -6,6 +6,23 @@
 .blueBack{
     background-color: #1b2b54;
 }
+.sortButton{
+    background-color: #1b2b54;
+    color: white;
+}
+.sortButton:hover{
+    color: white;
+    border:1px solid #1fcc40;
+    color: #1fcc40;
+}
+.addButton{
+    background-color: #fff;
+    border:1px solid #1b2b54;
+}
+.addButton:hover{
+color: #1fcc40;
+border:1px solid #1b2b54;
+}
 .btn {
     border-radius: 100px;
     font-size: 15px;
@@ -22,6 +39,7 @@
 .cardHolder{
     background-color: #394a70;
     border-radius: 30px;
+    align-items: center;
 }
 .card-text{
     color: #fff;
@@ -32,4 +50,8 @@
 .key{
     color: #ffa539;
     font-weight: bold;
+}
+.content {
+    display: flex;
+    flex-direction: column;
 }
